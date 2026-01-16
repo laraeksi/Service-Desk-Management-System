@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { Request, Response } from 'express';
+import type { Request, Response } from 'express';
 import type { SampleData } from './types.js';
 
 const DATA_URL = 'https://sampleapi.squaredup.com/integrations/v1/service-desk?datapoints=30';

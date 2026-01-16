@@ -12,7 +12,7 @@
 
 // Import necessary libraries and types
 import axios from 'axios';// axios: HTTP client for making API requests
-import { Request, Response } from 'express';// Request, Response: Express types for handling HTTP requests/responses
+import type { Request, Response } from 'express';// Request, Response: Express types for handling HTTP requests/responses
 import type { SampleData } from './types.js';// SampleData: TypeScript interface defining the structure of API response data
 
 // API endpoint URL: fetches 500 data points from the service desk API

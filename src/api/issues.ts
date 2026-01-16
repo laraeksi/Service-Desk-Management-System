@@ -3,7 +3,7 @@
 // Request, Response Express types for handling HTTP requests/responses
 // SampleData TypeScript interface defining the structure of API response data
 import axios from 'axios';
-import { Request, Response } from 'express';
+import type { Request, Response } from 'express';
 import type { SampleData } from './types.js';
 
 // API endpoint URL, fetches 100 data points from the service desk API
