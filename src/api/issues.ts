@@ -4,7 +4,7 @@
 // SampleData TypeScript interface defining the structure of API response data
 import axios from 'axios';
 import { Request, Response } from 'express';
-import { SampleData } from './types';
+import type { SampleData } from './types.js';
 
 // API endpoint URL, fetches 100 data points from the service desk API
 // This endpoint is used by the front end to display the list of issues
