@@ -1,10 +1,10 @@
 
 // Files Imports
 import * as configure from "./configure.js";
-import * as API_000 from "@api/root/src/api/analyze.ts";
-import * as API_001 from "@api/root/src/api/data.ts";
-import * as API_002 from "@api/root/src/api/issues.ts";
-import * as API_003 from "@api/root/src/api/types.ts";
+import * as API_000 from "../src/api/analyze.ts";
+import * as API_001 from "../src/api/data.ts";
+import * as API_002 from "../src/api/issues.ts";
+import * as API_003 from "../src/api/types.ts";
 
 // Public RESTful API Methods and Paths
 // This section describes the available HTTP methods and their corresponding endpoints (paths).
