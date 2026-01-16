@@ -4,6 +4,12 @@ import * as configure from "./configure.js";
 import { handler } from "./handler.js";
 import { endpoints } from "./routers.js";
 
+const API_ROUTES = {
+  BASE: "/",
+  BASE_API: "/api",
+  PUBLIC_DIR: "dist"
+};
+
 const server = express();
 configure.serverBefore?.(server);
 
