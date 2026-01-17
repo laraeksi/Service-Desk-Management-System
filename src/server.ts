@@ -13,7 +13,7 @@ app.use("/api/data", data.default);
 app.use("/api/issues", issues.default);
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const publicDir = path.resolve(__dirname, "..", "dist");
+const publicDir = path.resolve(__dirname, "..", "dist", "client");
 app.use(express.static(publicDir));
 app.get("*", (_req, res) => {
   res.sendFile(path.join(publicDir, "index.html"));
